@@ -19,7 +19,7 @@ PUNCT	.	sil
 PLAIN	стиля	<self>
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	D	d_letter_latin
+PLAIN	D	d
 CARDINAL	3	три
 PUNCT	(	sil
 PLAIN	яп	<self>
@@ -316,7 +316,7 @@ PLAIN	губернии	<self>
 PUNCT	,	sil
 PLAIN	т	<self>
 PUNCT	.	sil
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PUNCT	,	sil
 PLAIN	Владимир	<self>
 PUNCT	,	sil
@@ -1503,14 +1503,14 @@ PLAIN	Bertelsen	б е р т е л с е н
 PUNCT	,	sil
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	103	сто три
 PLAIN	Moore	м у р
 PUNCT	,	sil
 CARDINAL	1994	тысяча девятьсот девяносто четыре
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PLAIN	от	<self>
 CARDINAL	39	тридцать девять
@@ -1903,7 +1903,7 @@ PLAIN	Sted	с т е д
 PUNCT	:	sil
 PLAIN	kalendarium	к а л е н д а р и у м
 PLAIN	zycia	з и ш и я
-PLAIN	i	i_letter_latin
+PLAIN	i	i
 PLAIN	tworczosci	т в у з о с ц и
 PLAIN	Edwarda	э д у а р д а
 PLAIN	Stachury	с т а ч е р и
@@ -2700,11 +2700,11 @@ PLAIN	Проверено	<self>
 DATE	1 сентября 2015	первого сентября две тысячи пятнадцатого года
 PUNCT	.	sil
 PLAIN	Serbia	с е р б и я
-PLAIN	U	u_letter_latin
+PLAIN	U	u
 TELEPHONE	19 4-0	девятнадцать четыре ноль
 PLAIN	San	с а н
 PLAIN	Marino	м а р и н о
-PLAIN	U	u_letter_latin
+PLAIN	U	u
 CARDINAL	19	девятнадцать
 PUNCT	(	sil
 PLAIN	англ	<self>
@@ -3130,7 +3130,7 @@ PUNCT	(	sil
 CARDINAL	1998	тысяча девятьсот девяносто восемь
 PUNCT	)	sil
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	17	семнадцать
 PUNCT	.	sil
@@ -3764,7 +3764,7 @@ PUNCT	.	sil
 PLAIN	Турнир	<self>
 PLAIN	в	<self>
 PLAIN	группе	<self>
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 PLAIN	в	<self>
 PLAIN	рамках	<self>
 ORDINAL	56-го	пятьдесят шестого
@@ -4184,7 +4184,7 @@ LETTERS	FIGIS	f i g i s
 PUNCT	,	sil
 CARDINAL	2005	две тысячи пять
 PUNCT	.	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	world	у о р л д
 PLAIN	overview	о в е р в ь ю
 PLAIN	of	о ф
@@ -4274,7 +4274,7 @@ PLAIN	право	<self>
 PLAIN	играть	<self>
 PLAIN	в	<self>
 PLAIN	Группе	<self>
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 PLAIN	молодежного	<self>
 PLAIN	чемпионата	<self>
 PLAIN	мира	<self>
@@ -4319,7 +4319,7 @@ PUNCT	,	sil
 PLAIN	So	с о
 PLAIN	Hes	х е с
 PLAIN	Formed	ф о р м е д
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	New	н ь ю
 PLAIN	Band	б а н д
 PUNCT	,	sil
@@ -4861,7 +4861,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Page	п а ж
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	84	восемьдесят четыре
 PLAIN	Биография	<self>
@@ -5528,7 +5528,7 @@ PLAIN	операционную	<self>
 PLAIN	систему	<self>
 PLAIN	Mac	м а к
 LETTERS	OS	o s
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PUNCT	,	sil
 PLAIN	и	<self>
 PLAIN	браузера	<self>
@@ -5855,9 +5855,9 @@ PUNCT	,	sil
 CARDINAL	1983	тысяча девятьсот восемьдесят три
 PUNCT	.	sil
 LETTERS	ASIN	a s i n
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 DIGIT	0087	ноль ноль восемь семь
-PLAIN	V	v_letter_latin
+PLAIN	V	v
 CARDINAL	7	семь
 PLAIN	NIGLuttwak	н и г л а т т в а к
 PUNCT	,	sil
@@ -9550,7 +9550,7 @@ PLAIN	Европы	<self>
 PUNCT	.	sil
 <eos>	<eos>
 PLAIN	First	ф е р с т
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	Gator	г а т о р
 PLAIN	now	н а у
 PLAIN	the	з э
@@ -10896,7 +10896,7 @@ PUNCT	—	sil
 MEASURE	528 с.	пятьсот двадцать восемь секунд
 PLAIN	Лист	<self>
 PLAIN	карты	<self>
-PLAIN	O	o_letter_latin
+PLAIN	O	o
 CARDINAL	-38	минус три восемь
 CARDINAL	-37	минус три семь
 PLAIN	Корцево	<self>
@@ -11025,7 +11025,7 @@ VERBATIM	-	sil
 PLAIN	Судженск	<self>
 PLAIN	соединился	<self>
 PLAIN	веткой	<self>
-PLAIN	c	c_letter_latin
+PLAIN	c	c
 PLAIN	Кемерово	<self>
 PUNCT	.	sil
 <eos>	<eos>
@@ -12222,7 +12222,7 @@ PLAIN	Deng	д е н г
 LETTERS	HX	h x
 PUNCT	,	sil
 PLAIN	Siddique	с и д д и к
-PLAIN	T	t_letter_latin
+PLAIN	T	t
 PUNCT	(	sil
 PLAIN	September	с е п т е м б е р
 CARDINAL	2000	две тысячи
@@ -12493,12 +12493,12 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Patti	п а т т и
 PLAIN	Smith	с м и т
-PLAIN	e	e_letter_latin
+PLAIN	e	e
 PLAIN	Bjork	б д ж о р к
 PLAIN	in	и н
 PLAIN	uscita	у ш и т а
 PLAIN	Con	к о н
-PLAIN	i	i_letter_latin
+PLAIN	i	i
 PLAIN	Portishead	п о р т и ш е д
 PLAIN	siamo	с а й м о
 PLAIN	nel	н е л
@@ -13313,7 +13313,7 @@ CARDINAL	2002	две тысячи два
 PUNCT	)	sil
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	History	х и с т а р и
 PLAIN	of	о ф
 PLAIN	the	з э
@@ -14006,7 +14006,7 @@ CARDINAL	2000	две тысячи
 PUNCT	.	sil
 PUNCT	—	sil
 CARDINAL	305	триста пять
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PUNCT	—	sil
 LETTERS	ISBN	i s b n
@@ -14969,7 +14969,7 @@ PUNCT	—	sil
 LETTERS	ISBN	i s b n
 TELEPHONE	5-271-00287	пять двести семьдесят один ноль ноль двести восемьдесят семь
 VERBATIM	-	sil
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PUNCT	,	sil
 TELEPHONE	5-8195-0083-0	пять восемьдесят один девяносто пять ноль ноль восемьдесят три ноль
 PUNCT	,	sil
@@ -19328,7 +19328,7 @@ PLAIN	April	а п р и л
 LETTERS	RS	r s
 PUNCT	,	sil
 PLAIN	Miskovitz	м и с к а в и ц
-PLAIN	P	p_letter_latin
+PLAIN	P	p
 PUNCT	,	sil
 PLAIN	Neistadt	н е и с т а д т
 LETTERS	LD	l d
@@ -20858,7 +20858,7 @@ PLAIN	в	<self>
 PLAIN	танцах	<self>
 PLAIN	на	<self>
 PLAIN	льду	<self>
-PLAIN	c	c_letter_latin
+PLAIN	c	c
 PLAIN	Маурицио	<self>
 PLAIN	Маргальо	<self>
 PUNCT	.	sil
@@ -22763,7 +22763,7 @@ CARDINAL	1992	тысяча девятьсот девяносто два
 PUNCT	.	sil
 PUNCT	—	sil
 CARDINAL	331	триста тридцать один
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PUNCT	—	sil
 PUNCT	(	sil
@@ -23756,7 +23756,7 @@ PLAIN	оркестра	<self>
 PLAIN	русской	<self>
 PLAIN	гвардии	<self>
 PLAIN	в	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 VERBATIM	-	sil
 PLAIN	й	<self>
 PLAIN	половине	<self>
@@ -24317,7 +24317,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Hermann	х е р м а н н
 PLAIN	Hackmarm	х а к м а р м
-PLAIN	u	u_letter_latin
+PLAIN	u	u
 PUNCT	.	sil
 LETTERS	A.	a
 PUNCT	,	sil
@@ -25460,7 +25460,7 @@ PLAIN	высокий	<self>
 PLAIN	приоритет	<self>
 PUNCT	,	sil
 PLAIN	чем	<self>
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 VERBATIM	-	sil
 PLAIN	канон	<self>
 PUNCT	.	sil
@@ -25739,7 +25739,7 @@ PLAIN	Сварочные	<self>
 PLAIN	аппараты	<self>
 PLAIN	с	<self>
 PLAIN	зафиксированными	<self>
-PLAIN	V	v_letter_latin
+PLAIN	V	v
 VERBATIM	-	sil
 PLAIN	канавками	<self>
 PUNCT	.	sil
@@ -26300,7 +26300,7 @@ PLAIN	у	<self>
 PLAIN	Мариуса	<self>
 PUNCT	(	sil
 PUNCT	«	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Little	л и т л
 PLAIN	Fall	ф о л л
 PLAIN	of	о ф
@@ -26513,7 +26513,7 @@ PLAIN	представлена	<self>
 PLAIN	в	<self>
 DATE	2011 году	две тысячи одиннадцатом году
 PLAIN	на	<self>
-PLAIN	E	e_letter_latin
+PLAIN	E	e
 CARDINAL	3	три
 PLAIN	и	<self>
 PLAIN	Comic	к о м и к
@@ -27705,7 +27705,7 @@ PUNCT	:	sil
 PLAIN	Episode	э п и с о д
 CARDINAL	1	один
 VERBATIM	-	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	New	н ь ю
 PLAIN	Day	д э й
 PUNCT	.	sil
@@ -27841,7 +27841,7 @@ PUNCT	(	sil
 PLAIN	наравне	<self>
 PLAIN	с	<self>
 PLAIN	катастрофой	<self>
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 CARDINAL	-5	минус пять
 PLAIN	под	<self>
 PLAIN	Таншоннятом	<self>
@@ -27903,9 +27903,9 @@ DATE	2 ноября 2013	второго ноября две тысячи три�
 PUNCT	.	sil
 PLAIN	Crash	к р а ш
 PLAIN	of	о ф
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	Lockheed	л о к х и д
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 CARDINAL	-130	минус сто тридцать
 PLAIN	Hercules	г е р к у л е с
 PLAIN	in	и н
@@ -28171,7 +28171,7 @@ CARDINAL	1990	тысяча девятьсот девяносто
 PUNCT	.	sil
 PUNCT	—	sil
 CARDINAL	394	триста девяносто четыре
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PUNCT	—	sil
 LETTERS	ISBN	i s b n
@@ -29266,7 +29266,7 @@ PLAIN	квалифицирован	<self>
 PLAIN	для	<self>
 PLAIN	полетов	<self>
 PLAIN	на	<self>
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 CARDINAL	-707	минус семьсот семь
 PUNCT	,	sil
 PLAIN	первую	<self>
@@ -29940,7 +29940,7 @@ PUNCT	.	sil
 CARDINAL	20	двадцать
 PUNCT	:	sil
 CARDINAL	205	двести пять
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 PUNCT	,	sil
 PLAIN	Lunar	л у н а р
 PLAIN	and	э н д
@@ -31128,7 +31128,7 @@ PUNCT	«	sil
 PLAIN	Reunion	р е у н е н
 PLAIN	entre	э н т р
 PLAIN	Maduro	м а д е р о
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PLAIN	Santos	с а н т о с
 PLAIN	sobre	с о б р
 PLAIN	frontera	ф р о н т е р а
@@ -31574,7 +31574,7 @@ LETTERS	FANG	f a n g
 PUNCT	,	sil
 PLAIN	Chaoying	ч а о а и н г
 PUNCT	,	sil
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	kol	к о л
 PUNCT	.	sil
 <eos>	<eos>
@@ -31672,9 +31672,9 @@ LETTERS	ASN	a s n
 PLAIN	Aircraft	э й р к р а ф т
 PLAIN	accident	а к с и д е н т
 PLAIN	Curtiss	к е р т и с с
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 CARDINAL	-46	минус сорок шесть
-PLAIN	D	d_letter_latin
+PLAIN	D	d
 CARDINAL	-5	минус пять
 VERBATIM	-	sil
 LETTERS	CU	c u
@@ -32307,7 +32307,7 @@ PUNCT	.	sil
 LETTERS	SEC	s e c
 CARDINAL	10	десять
 VERBATIM	-	sil
-PLAIN	K	k_letter_latin
+PLAIN	K	k
 PUNCT	(	sil
 LETTERS	PDF	p d f
 PUNCT	)	sil
@@ -34282,7 +34282,7 @@ PUNCT	,	sil
 LETTERS	D. W.	d w
 PLAIN	Smith	с м и т
 PLAIN	The	з э
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 PLAIN	syndrome	с и н д р о м
 PLAIN	of	о ф
 PLAIN	multiple	м а л т и п л
@@ -37272,7 +37272,7 @@ PLAIN	The	з э
 PLAIN	Dinner	д и н н е р
 PLAIN	Party	п а р т и
 PUNCT	:	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Symbol	с и м б о л
 PLAIN	of	о ф
 PLAIN	our	а у р
@@ -38026,7 +38026,7 @@ PLAIN	баллистические	<self>
 PLAIN	ракеты	<self>
 PUNCT	«	sil
 PLAIN	Polaris	п о л а р и с
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 CARDINAL	2	два
 PUNCT	»	sil
 PLAIN	в	<self>
@@ -39315,7 +39315,7 @@ PUNCT	/	sil
 PLAIN	s	<self>
 TELEPHONE	10569-007-9072	сто пять шестьдесят девять ноль ноль семь девяносто семьдесят два
 VERBATIM	-	sil
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PUNCT	.	sil
 LETTERS	ISSN	i s s n
 PUNCT	(	sil
@@ -42681,7 +42681,7 @@ PUNCT	)	sil
 PLAIN	области	<self>
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	O	o_letter_latin
+PLAIN	O	o
 CARDINAL	3	три
 PLAIN	Austria	о с т р и я
 PLAIN	Top	т о п
@@ -43030,7 +43030,7 @@ PLAIN	Assistance	а с с и с т а н с
 VERBATIM	&	и
 PLAIN	Protection	п р о т е к ш е н
 PUNCT	:	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	History	х и с т а р и
 PLAIN	of	о ф
 PLAIN	the	з э
@@ -44592,7 +44592,7 @@ PLAIN	as	а с
 PLAIN	saying	с а а и н г
 PLAIN	Israel	и з р а э л
 PLAIN	was	в а с
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PUNCT	«	sil
 PLAIN	Jewish	д ж е в и ш
 PLAIN	supremacist	с а п р е м а с и с т
@@ -45817,7 +45817,7 @@ PLAIN	American	а м е р и к а н
 PLAIN	Conservatism	к о н с е р в е й ш е с м
 PUNCT	:	sil
 PLAIN	Toward	т о в а р д
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	New	н ь ю
 PLAIN	Narrative	н а р р а т и в
 PUNCT	.	sil
@@ -47450,7 +47450,7 @@ PLAIN	стол	<self>
 PLAIN	в	<self>
 PLAIN	павильоне	<self>
 PLAIN	столовой	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 VERBATIM	-	sil
 PLAIN	го	<self>
 PLAIN	батальона	<self>
@@ -47839,7 +47839,7 @@ PUNCT	.	sil
 PLAIN	Служил	<self>
 PLAIN	пилотом	<self>
 PLAIN	самолета	<self>
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 CARDINAL	-10	минус десять
 PLAIN	на	<self>
 PLAIN	базе	<self>
@@ -48527,7 +48527,7 @@ PUNCT	.	sil
 PLAIN	Статистика	<self>
 PLAIN	на	<self>
 PLAIN	сайте	<self>
-PLAIN	R	r_letter_latin
+PLAIN	R	r
 VERBATIM	-	sil
 PLAIN	ArcticNET	а р к т и к н е т
 PUNCT	.	sil
@@ -48714,7 +48714,7 @@ PLAIN	Governo	г о в е р н о
 PUNCT	:	sil
 PLAIN	Costa	к о с т а
 PLAIN	indicato	и н д и к а т о
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	Affari	а ф ф а р и
 PLAIN	regionali	р и д ж и н а л и
 PUNCT	,	sil
@@ -49012,7 +49012,7 @@ PLAIN	West	у э с т
 PUNCT	,	sil
 TELEPHONE	1221-1410	двенадцать двадцать один четырнадцать десять
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	170	сто семьдесят
 PLAIN	ff	ф ф
@@ -49147,7 +49147,7 @@ PLAIN	Crusades	к р у с а д е с
 PUNCT	,	sil
 TELEPHONE	1191-1374	одиннадцать девяносто один тринадцать семьдесят четыре
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	105	сто пять
 PUNCT	.	sil
@@ -49164,7 +49164,7 @@ TELEPHONE	0-521-26876-1	ноль пятьсот двадцать один две
 PUNCT	.	sil
 PLAIN	Demurger	д е м е р д ж е р
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	154	сто пятьдесят четыре
 PLAIN	ffЦит	<self>
@@ -49681,7 +49681,7 @@ PUNCT	?	sil
 <eos>	<eos>
 PLAIN	J	<self>
 VERBATIM	&	и
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Churchill	ч е р ч и л л
 PUNCT	,	sil
 PLAIN	London	л о н д о н
@@ -50787,7 +50787,7 @@ PLAIN	Коронная	<self>
 PLAIN	фраза	<self>
 PUNCT	—	sil
 PUNCT	«	sil
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 LETTERS	KNOW	k n o w
 PUNCT	!	sil
 <eos>	<eos>
@@ -51516,7 +51516,7 @@ PLAIN	Unquillosaurus	ю н к и л л о с о р о с
 PLAIN	ceibalii	с е й б а л и и
 PLAIN	Powell	п а у э л л
 PUNCT	,	sil
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	giant	д ж а й а н т
 PLAIN	maniraptoran	м а н и р а п т о р а н
 PUNCT	(	sil
@@ -51805,7 +51805,7 @@ PLAIN	из	<self>
 PLAIN	первоисточника	<self>
 DATE	29 сентября 2012	двадцать девятого сентября две тысячи двенадцатого года
 PUNCT	.	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 LETTERS	RAW	r a w
 PLAIN	hand	х а н д
 PUNCT	:	sil
@@ -52751,7 +52751,7 @@ PLAIN	местах	<self>
 PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Переход	<self>
-PLAIN	r	r_letter_latin
+PLAIN	r	r
 PLAIN	в	<self>
 PLAIN	rz	р с
 PUNCT	(	sil
@@ -53040,9 +53040,9 @@ PUNCT	,	sil
 PLAIN	пятиокись	<self>
 PLAIN	фосфора	<self>
 PUNCT	(	sil
-PLAIN	P	p_letter_latin
+PLAIN	P	p
 CARDINAL	2	два
-PLAIN	O	o_letter_latin
+PLAIN	O	o
 CARDINAL	5	пять
 PUNCT	)	sil
 MEASURE	15,7%	пятнадцать целых и семь десятых процента
@@ -53305,7 +53305,7 @@ PLAIN	Древс	<self>
 PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Шаварш	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PLAIN	Айказуни	<self>
 PUNCT	(	sil
 PLAIN	арм	<self>
@@ -54165,7 +54165,7 @@ PLAIN	на	<self>
 PLAIN	Русь	<self>
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 PLAIN	Konigstiger	к о н и г с т и г е р
 PUNCT	(	sil
 PLAIN	англ	<self>
@@ -55629,7 +55629,7 @@ PUNCT	,	sil
 PLAIN	чем	<self>
 PLAIN	их	<self>
 PLAIN	аналоги	<self>
-PLAIN	K	k_letter_latin
+PLAIN	K	k
 VERBATIM	-	sil
 PLAIN	и	<self>
 PLAIN	М	<self>
@@ -56347,7 +56347,7 @@ PLAIN	было	<self>
 PLAIN	принято	<self>
 DATE	14 марта 1921 года	четырнадцатого марта тысяча девятьсот двадцать первого года
 PLAIN	на	<self>
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PLAIN	съезде	<self>
 LETTERS	РКП	р к п
 PUNCT	(	sil
@@ -56656,7 +56656,7 @@ VERBATIM	-	sil
 PLAIN	COLLOIDAL	к о л л о и д а л
 PLAIN	SOLUTIONS	с о л ь ю ш е н с
 LETTERS	OF	o f
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 CARDINAL	60	шестьдесят
 PLAIN	FULLERENE	ф у л л е р и н
 LETTERS	WITH	w i t h
@@ -57130,7 +57130,7 @@ PUNCT	,	sil
 LETTERS	K.	k
 PLAIN	Ophthalmology	о ф т а л м о л о д ж и
 PUNCT	:	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Pocket	п о к е т
 PLAIN	Textbook	т е к с т б у к
 PLAIN	Atlas	а т л а с
@@ -57736,7 +57736,7 @@ PUNCT	,	sil
 LETTERS	K.	k
 CARDINAL	1986	тысяча девятьсот восемьдесят шесть
 PUNCT	.	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	key	к и
 PLAIN	to	т о
 PLAIN	Japanese	д ж а п а н е с
@@ -61025,7 +61025,7 @@ PLAIN	Артаксеркса	<self>
 CARDINAL	II	двух
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	V	v_letter_latin
+PLAIN	V	v
 PLAIN	Военный	<self>
 PLAIN	округ	<self>
 PUNCT	.	sil
@@ -61764,7 +61764,7 @@ PUNCT	.	sil
 PLAIN	James	д ж е й м с
 PLAIN	Smith	с м и т
 PUNCT	:	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Tutor	т а т о р
 PLAIN	for	ф о р
 PLAIN	the	з э
@@ -64709,7 +64709,7 @@ PLAIN	Blaise	б л е й с
 PUNCT	,	sil
 CARDINAL	1619	тысяча шестьсот девятнадцать
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	585	пятьсот восемьдесят пять
 PLAIN	Enguerrand	э н г е р р а н д
@@ -65740,7 +65740,7 @@ PLAIN	Operacion	о п е р а с и о н
 PLAIN	Triunfo	т р и у н ф о
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 CARDINAL	7	семь
 PLAIN	по	<self>
 DATE	18 октября 2002 года	восемнадцатого октября две тысячи второго года
@@ -66071,7 +66071,7 @@ PLAIN	-	до
 CARDINAL	13	тринадцати
 PUNCT	.	sil
 PLAIN	Campen	к э м п е н
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 PUNCT	(	sil
 CARDINAL	1999	тысяча девятьсот девяносто девять
 PUNCT	)	sil
@@ -67826,7 +67826,7 @@ PLAIN	Nicholls	н и к о л с
 PUNCT	,	sil
 CARDINAL	1998	тысяча девятьсот девяносто восемь
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	378	триста семьдесят восемь
 LETTERS	C.	c
@@ -68209,7 +68209,7 @@ PUNCT	.	sil
 PLAIN	Minnie	м и н н и
 PUNCT	,	sil
 PLAIN	Chi	ч и
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PLAIN	Japan	д ж а п а н
 PLAIN	Best	б е с т
 PLAIN	review	р е в ь ю
@@ -68536,7 +68536,7 @@ CARDINAL	1667	тысяча шестьсот шестьдесят семь
 PUNCT	.	sil
 PUNCT	—	sil
 CARDINAL	280	двести восемьдесят
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PLAIN	Фортинский	<self>
 LETTERS	Ф. Я.	ф я
@@ -69537,14 +69537,14 @@ PLAIN	три	<self>
 PLAIN	подвида	<self>
 PUNCT	;	sil
 LETTERS	C.	c
-PLAIN	c	c_letter_latin
+PLAIN	c	c
 PUNCT	.	sil
 PLAIN	cyanotis	с а й а н о т и с
 PUNCT	,	sil
 PLAIN	северный	<self>
 PLAIN	СулавесиС	<self>
 PUNCT	.	sil
-PLAIN	c	c_letter_latin
+PLAIN	c	c
 PUNCT	.	sil
 PLAIN	modesta	м о д е с т а
 PUNCT	,	sil
@@ -69609,7 +69609,7 @@ PLAIN	он	<self>
 PLAIN	пилотировал	<self>
 PUNCT	«	sil
 PLAIN	Martin	м а р т и н
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 CARDINAL	-57	минус пятьдесят семь
 PLAIN	Canberra	к а н б е р р а
 PUNCT	»	sil
@@ -69931,7 +69931,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Melanges	м е л а н д ж е с
 PLAIN	offerts	о ф ф е р т с
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	Michel	м и ш е л
 PLAIN	Aucouturier	о к а у т е р ь е р
 PUNCT	.	sil
@@ -71062,7 +71062,7 @@ CARDINAL	-8	sil
 CARDINAL	-61	минус шесть один
 PLAIN	N	<self>
 CARDINAL	8082	восемь тысяч восемьдесят два
-PLAIN	U	u_letter_latin
+PLAIN	U	u
 PUNCT	(	sil
 PLAIN	англ	<self>
 PUNCT	.	sil
@@ -71244,7 +71244,7 @@ CARDINAL	3	три
 PUNCT	,	sil
 PLAIN	elle	э л л
 PLAIN	devra	д е в р а
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PLAIN	mettre	м е т т р
 PLAIN	le	л е
 PLAIN	prix	п р и к с
@@ -72104,7 +72104,7 @@ PLAIN	Wallace	у о л л е с
 PUNCT	,	sil
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	67	шестьдесят семь
 PLAIN	Burrows	б е р р о у з
@@ -72113,7 +72113,7 @@ PLAIN	Wallace	у о л л е с
 PUNCT	,	sil
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	110	сто десять
 PLAIN	Carl	к а р л
@@ -73122,7 +73122,7 @@ PLAIN	Edgar	э д г а р
 PLAIN	Allan	а л л а н
 PLAIN	Poe	п о
 PUNCT	:	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	Critical	к р и т и к а л
 PLAIN	Biography	б а й о г р а ф и
 PUNCT	.	sil
@@ -73541,7 +73541,7 @@ PUNCT	.	sil
 PLAIN	DeMello	д е м е л л о
 CARDINAL	2007	две тысячи семь
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	205	двести пять
 PUNCT	.	sil
@@ -73981,7 +73981,7 @@ PUNCT	»	sil
 PLAIN	как	<self>
 ORDINAL	19-й	девятнадцатый
 PLAIN	царь	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PLAIN	династии	<self>
 PLAIN	Киша	<self>
 PUNCT	.	sil
@@ -74441,7 +74441,7 @@ PUNCT	.	sil
 PLAIN	Chronica	к р о н и к а
 PLAIN	dell	д е л л
 PLAIN	origine	о р и г и н
-PLAIN	e	e_letter_latin
+PLAIN	e	e
 PLAIN	progresse	п р о г р е с с
 PLAIN	della	д е л л а
 PLAIN	casa	к а с а
@@ -74699,7 +74699,7 @@ PUNCT	»	sil
 PUNCT	(	sil
 CARDINAL	1917	тысяча девятьсот семнадцать
 PUNCT	)	sil
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PUNCT	,	sil
 PUNCT	«	sil
 PLAIN	Мэржани	<self>
@@ -75808,7 +75808,7 @@ PLAIN	Vladimir	в л а д и м е р
 PLAIN	Villegas	в и л л е г а с
 PUNCT	:	sil
 LETTERS	PPT	p p t
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PLAIN	el	э л
 PLAIN	partido	п а р т и д о
 PLAIN	unido	ю н и д о
@@ -76155,7 +76155,7 @@ PLAIN	предсезонные	<self>
 PLAIN	тесты	<self>
 PLAIN	с	<self>
 PLAIN	болидом	<self>
-PLAIN	F	f_letter_latin
+PLAIN	F	f
 CARDINAL	10	десять
 PLAIN	в	<self>
 PLAIN	Валенсии	<self>
@@ -76886,7 +76886,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Astor	а с т о р
 PLAIN	Piazzolla	п и а з з о л л а
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PUNCT	"	sil
 PLAIN	Las	л а с
 PLAIN	cuatro	к а а т р о
@@ -77475,7 +77475,7 @@ PLAIN	неинтересно	<self>
 PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Ferrari	ф е р р а р и
-PLAIN	F	f_letter_latin
+PLAIN	F	f
 CARDINAL	40	сорок
 PUNCT	—	sil
 PLAIN	среднемоторный	<self>
@@ -77818,7 +77818,7 @@ PUNCT	,	sil
 PLAIN	известная	<self>
 PLAIN	как	<self>
 PLAIN	Brenhinedd	б р е н а й н е д д
-PLAIN	y	y_letter_latin
+PLAIN	y	y
 PLAIN	Saeson	с а е с о н
 PUNCT	(	sil
 PUNCT	«	sil
@@ -79040,7 +79040,7 @@ PLAIN	с	<self>
 PLAIN	использованием	<self>
 PLAIN	нотации	<self>
 PUNCT	«	sil
-PLAIN	O	o_letter_latin
+PLAIN	O	o
 PUNCT	»	sil
 PLAIN	большое	<self>
 PUNCT	,	sil
@@ -79806,7 +79806,7 @@ PLAIN	при	<self>
 PLAIN	взгляде	<self>
 PLAIN	сверху	<self>
 PLAIN	имеет	<self>
-PLAIN	U	u_letter_latin
+PLAIN	U	u
 VERBATIM	-	sil
 PLAIN	образные	<self>
 PLAIN	очертания	<self>
@@ -80459,7 +80459,7 @@ CARDINAL	-32	минус три два
 PUNCT	(	sil
 PLAIN	регистрационный	<self>
 PLAIN	номер	<self>
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 VERBATIM	-	sil
 LETTERS	FTLU	f t l u
 PUNCT	,	sil
@@ -80479,7 +80479,7 @@ PUNCT	.	sil
 PLAIN	Фильм	<self>
 PLAIN	считается	<self>
 PLAIN	классикой	<self>
-PLAIN	B	b_letter_latin
+PLAIN	B	b
 VERBATIM	-	sil
 PLAIN	movie	м о в и
 PUNCT	.	sil
@@ -81352,7 +81352,7 @@ PLAIN	Dai	д а й
 PLAIN	Bambinio	б а м б и н и о
 PLAIN	di	д и
 PLAIN	Dio	д и о
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	The	з э
 PLAIN	Family	ф э м и л и
 PUNCT	(	sil
@@ -81837,7 +81837,7 @@ PUNCT	.	sil
 PLAIN	g	<self>
 CARDINAL	3	три
 VERBATIM	-	sil
-PLAIN	h	h_letter_latin
+PLAIN	h	h
 CARDINAL	4	четыре
 PUNCT	[	sil
 PLAIN	С	<self>
@@ -82232,13 +82232,13 @@ PLAIN	Тамань	<self>
 PUNCT	—	sil
 PLAIN	Кафа	<self>
 PLAIN	цепь	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PUNCT	»	sil
 PUNCT	.	sil
 <eos>	<eos>
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	200	двести
 PUNCT	)	sil
@@ -82246,7 +82246,7 @@ PUNCT	(	sil
 PLAIN	Dachez	д а ч е з
 CARDINAL	2003	две тысячи три
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	79	семьдесят девять
 PUNCT	)	sil
@@ -82378,7 +82378,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Сын	<self>
 PLAIN	Шарля	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PLAIN	де	<self>
 PLAIN	Монморанси	<self>
 PLAIN	и	<self>
@@ -83236,7 +83236,7 @@ PUNCT	.	sil
 PLAIN	Общий	<self>
 PLAIN	объем	<self>
 PLAIN	производства	<self>
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 PLAIN	от	<self>
 CARDINAL	610	шестисот десяти
 PLAIN	—	до
@@ -84031,7 +84031,7 @@ PUNCT	.	sil
 <eos>	<eos>
 PLAIN	Лист	<self>
 PLAIN	карты	<self>
-PLAIN	O	o_letter_latin
+PLAIN	O	o
 CARDINAL	-37	минус три семь
 CARDINAL	-103	минус один ноль три
 PLAIN	Ростов	<self>
@@ -84270,7 +84270,7 @@ PLAIN	Michaelle	м а й к л ь
 PLAIN	et	э т
 PLAIN	Andronico	э н д р о н и к о
 PLAIN	Paleologis	п а л е о л о д ж и с
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PUNCT	,	sil
 LETTERS	CSHB	c s h b
 PUNCT	(	sil
@@ -86147,7 +86147,7 @@ PUNCT	.	sil
 CARDINAL	115	сто пятнадцать
 PUNCT	,	sil
 LETTERS	XI	x i
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 PUNCT	,	sil
 CARDINAL	1	один
@@ -86661,7 +86661,7 @@ PLAIN	выпуске	<self>
 PUNCT	«	sil
 PLAIN	Пентакса	<self>
 VERBATIM	-	sil
-PLAIN	K	k_letter_latin
+PLAIN	K	k
 CARDINAL	-3	минус три
 CARDINAL	II	два
 PUNCT	»	sil
@@ -88190,7 +88190,7 @@ PUNCT	.	sil
 PLAIN	Одновременно	<self>
 PLAIN	представлена	<self>
 PLAIN	версия	<self>
-PLAIN	K	k_letter_latin
+PLAIN	K	k
 CARDINAL	-5	минус пять
 PLAIN	IIs	и и с
 PLAIN	без	<self>
@@ -88219,7 +88219,7 @@ PLAIN	версии	<self>
 PLAIN	сайта	<self>
 PLAIN	Neocamera	н е о к а м е р а
 PUNCT	(	sil
-PLAIN	K	k_letter_latin
+PLAIN	K	k
 CARDINAL	-5	минус пять
 CARDINAL	II	два
 PUNCT	)	sil
@@ -89568,7 +89568,7 @@ PLAIN	давшая	<self>
 PLAIN	в	<self>
 LETTERS	IX	i x
 PUNCT	—	sil
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PLAIN	веках	<self>
 PLAIN	ряд	<self>
 PLAIN	полководцев	<self>
@@ -89990,7 +89990,7 @@ PUNCT	.	sil
 CARDINAL	5	пять
 PLAIN	Вольта	<self>
 PUNCT	(	sil
-PLAIN	A	a_letter_latin
+PLAIN	A	a
 CARDINAL	76	семьдесят шесть
 PUNCT	,	sil
 LETTERS	SR	s r
@@ -91573,11 +91573,11 @@ LETTERS	FTZ	f t z
 PUNCT	,	sil
 LETTERS	AF	a f
 CARDINAL	220	двести двадцать
-PLAIN	T	t_letter_latin
+PLAIN	T	t
 PLAIN	или	<self>
 LETTERS	AF	a f
 CARDINAL	280	двести восемьдесят
-PLAIN	T	t_letter_latin
+PLAIN	T	t
 PUNCT	)	sil
 PLAIN	с	<self>
 PLAIN	режимом	<self>
@@ -91724,7 +91724,7 @@ PLAIN	использования	<self>
 PLAIN	с	<self>
 LETTERS	APS	a p s
 VERBATIM	-	sil
-PLAIN	C	c_letter_latin
+PLAIN	C	c
 VERBATIM	-	sil
 PLAIN	камерами	<self>
 PUNCT	.	sil
@@ -92298,7 +92298,7 @@ PLAIN	American	а м е р и к а н
 PLAIN	Civil	с и в и л
 PLAIN	War	у о р
 PUNCT	:	sil
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	political	п о л и т и к а л
 PUNCT	,	sil
 PLAIN	social	с о ш и а л
@@ -94079,7 +94079,7 @@ PUNCT	.	sil
 <eos>	<eos>
 CARDINAL	2	два
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	389	триста восемьдесят девять
 PUNCT	.	sil
@@ -95030,7 +95030,7 @@ PLAIN	of	о ф
 PLAIN	the	з э
 PLAIN	telescope	т е л е с к о п
 PUNCT	:	sil
-PLAIN	a	a_letter_latin
+PLAIN	a	a
 PLAIN	biography	б а й о г р а ф и
 PLAIN	of	о ф
 PLAIN	John	д ж о н
@@ -96529,7 +96529,7 @@ VERBATIM	є	е
 PLAIN	мин	<self>
 CARDINAL	VII	семь
 PUNCT	—	sil
-PLAIN	X	x_letter_latin
+PLAIN	X	x
 PLAIN	вiкiв	<self>
 PUNCT	/	sil
 PUNCT	/	sil
@@ -97346,7 +97346,7 @@ PUNCT	'	sil
 LETTERS	FZ	f z
 PUNCT	:	sil
 PLAIN	Side	с а й д
-PLAIN	F	f_letter_latin
+PLAIN	F	f
 PUNCT	(	sil
 PLAIN	англ	<self>
 PUNCT	.	sil
@@ -97512,7 +97512,7 @@ PLAIN	Press	п р е с с
 PUNCT	,	sil
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	4	четыре
 PUNCT	.	sil
@@ -97534,7 +97534,7 @@ PLAIN	Press	п р е с с
 PUNCT	,	sil
 CARDINAL	2000	две тысячи
 PUNCT	,	sil
-PLAIN	p	p_letter_latin
+PLAIN	p	p
 PUNCT	.	sil
 CARDINAL	6	шесть
 PUNCT	.	sil
@@ -98397,7 +98397,7 @@ PLAIN	Московской	<self>
 PLAIN	области	<self>
 PUNCT	.	sil
 <eos>	<eos>
-PLAIN	H	h_letter_latin
+PLAIN	H	h
 VERBATIM	-	sil
 PLAIN	Alter	а л т е р
 PUNCT	(	sil
@@ -99665,7 +99665,7 @@ PUNCT	—	sil
 PLAIN	орден	<self>
 PLAIN	Отечественной	<self>
 PLAIN	войны	<self>
-PLAIN	I	i_letter_latin
+PLAIN	I	i
 PLAIN	степени	<self>
 PUNCT	.	sil
 <eos>	<eos>

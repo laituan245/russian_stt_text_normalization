@@ -88,7 +88,7 @@ class Normalizer:
         splitters = '\n\t?!'
         parts = [p for p in re.split(r'({})'.format('|\\'.join(splitters)), text) if p != '']
         norm_parts = []
-        for part in tqdm(parts):
+        for part in parts:
             if part in splitters:
                 norm_parts.append(part)
             else:
