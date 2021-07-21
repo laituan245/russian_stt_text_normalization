@@ -40,13 +40,22 @@ def read_tsv(tsv_fp):
     written_strs, spoken_strs = [], []
     for inst in instances:
         cur_classes, cur_tokens, cur_outputs = inst
-        written_str = ' '.join(cur_tokens)
-        written_strs.append(written_str)
+        # written_str
+        filtered_cur_tokens = []
+        for t, o in zip(cur_tokens, cur_outputs):
+            if o == 'sil': continue
+            filtered_cur_tokens.append(t)
+        written_str = ' '.join(filtered_cur_tokens)
+
+        # spoken_str
         filtered_cur_outputs = []
         for t, o in zip(cur_tokens, cur_outputs):
-            if o in ['<self>', 'sil']: filtered_cur_outputs.append(t)
+            if o in ['<self>']: filtered_cur_outputs.append(t)
+            elif o == 'sil': continue
             else: filtered_cur_outputs = filtered_cur_outputs + o.split(' ')
         spoken_str = ' '.join(filtered_cur_outputs)
+        # Update written_strs and spoken_strs
+        written_strs.append(written_str)
         spoken_strs.append(spoken_str)
     assert(len(written_strs) == len(instances))
     assert(len(spoken_strs) == len(instances))

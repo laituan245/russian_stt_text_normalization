@@ -1,4 +1,5 @@
 errors.txt
+tmp/
 
 # log and data files
 *.model
