@@ -75,14 +75,14 @@ if __name__ == "__main__":
     written_strs, spoken_strs = read_tsv(args.test_fp)
 
     # Evaluation
-    error_file = open('errors.txt', 'w+', encoding='utf-8')
+    error_file = open('resources/errors_log.txt', 'w+', encoding='utf-8')
     total_count, correct_count = 0, 0
     norm = Normalizer()
     for i in tqdm(range(len(written_strs))):
         w_str, s_str = written_strs[i], spoken_strs[i]
         pred_str = norm.norm_text(w_str)
-        normalized_pred_str = remove_punctuation(pred_str.strip().replace(' ', ''))
-        normalized_target_str = remove_punctuation(s_str.strip().replace(' ', ''))
+        normalized_pred_str = remove_punctuation(pred_str.strip().lower()).replace(' ', '')
+        normalized_target_str = remove_punctuation(s_str.strip().lower()).replace(' ', '')
         if normalized_pred_str == normalized_target_str:
             correct_count += 1
         else:
