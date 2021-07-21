@@ -63,7 +63,7 @@ if __name__ == "__main__":
     for i in tqdm(range(len(written_strs))):
         w_str, s_str = written_strs[i], spoken_strs[i]
         pred_str = norm.norm_text(w_str)
-        if pred_str.strip() == s_str.strip():
+        if pred_str.strip().replace(' ', '') == s_str.strip().replace(' ', ''):
             correct_count += 1
         else:
             error_file.write('Written Input: {}\n'.format(w_str))
