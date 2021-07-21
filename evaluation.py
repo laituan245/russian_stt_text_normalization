@@ -1,3 +1,4 @@
+import re
 import string
 import numpy as np
 
@@ -6,6 +7,14 @@ from normalizer import Normalizer
 from argparse import ArgumentParser
 
 # Helper Function
+def remove_punctuation(word: str):
+    """
+    Removes all punctuation marks from a word except for '
+    that is often a part of word: don't, it's, and so on
+    """
+    all_punct_marks = string.punctuation.replace("'", '')
+    return re.sub('[' + all_punct_marks + ']', '', word)
+
 def read_tsv(tsv_fp):
     print(f'Reading file from {tsv_fp}')
 
@@ -63,7 +72,9 @@ if __name__ == "__main__":
     for i in tqdm(range(len(written_strs))):
         w_str, s_str = written_strs[i], spoken_strs[i]
         pred_str = norm.norm_text(w_str)
-        if pred_str.strip().replace(' ', '') == s_str.strip().replace(' ', ''):
+        normalized_pred_str = remove_punctuation(pred_str.strip().replace(' ', ''))
+        normalized_target_str = remove_punctuation(s_str.strip().replace(' ', ''))
+        if normalized_pred_str == normalized_target_str:
             correct_count += 1
         else:
             error_file.write('Written Input: {}\n'.format(w_str))
